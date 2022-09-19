@@ -28,6 +28,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - run: cd container
       - run: npm install
       - run: npm run build
 
