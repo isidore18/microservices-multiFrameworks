@@ -1,4 +1,4 @@
-name: deploy-container-v2
+name: deploy-container
 
 on: 
   push:
@@ -17,6 +17,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - run: echo Hello, world!
       - run: npm install
       - run: npm run build
 
