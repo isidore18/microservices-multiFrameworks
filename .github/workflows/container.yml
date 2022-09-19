@@ -8,7 +8,7 @@ on:
   push:
     branches: [ "master" ]
     paths:
-      - 'packages/container/**'
+      - 'microservices-react-vue/container/**'
       - '.github/workflows/**'
   pull_request:
     branches: [ "master" ]
@@ -18,7 +18,7 @@ on:
 
 defaults:
   run:
-    working-directory: packages/container
+    working-directory: microservices-react-vuecontainer
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
