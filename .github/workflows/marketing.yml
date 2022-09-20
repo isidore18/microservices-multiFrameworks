@@ -7,7 +7,7 @@
           - master
         paths:
           - "packages/marketing/**"$
-          - ".github/workflows/**"
+          - '.github/workflows/**'
 
      
     defaults:
