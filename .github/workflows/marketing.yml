@@ -7,9 +7,6 @@
           - master
         paths:
           - "packages/marketing/**"$
-          - '.github/workflows/**'
-
-     
     defaults:
       run:
         working-directory: packages/marketing
