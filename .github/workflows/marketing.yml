@@ -6,7 +6,9 @@
         branches:
           - master
         paths:
-          - "packages/marketing/**"
+          - "packages/marketing/**"$
+          - "/.github/workflows/**"
+
      
     defaults:
       run:
