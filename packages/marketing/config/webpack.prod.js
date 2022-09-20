@@ -12,8 +12,9 @@ const prodConfig = {
         new ModuleFederationPlugin({
             name: 'marketing',
             filename: 'remoteEntry.js',
+            publicPath: '/marketing/latest',
             exposes: {
-                './MarketingApp':  './src/bootstrap.js'
+                './MarketingApp':  './src/bootstrap.js',
             },
             shared: packageJson.dependencies
         })
