@@ -17,7 +17,7 @@ const prodConfig = {
             remotes: {
                 marketing:  `marketing@${domain}/marketing/latest/remoteEntry.js`
             },
-            shared: packageJson.dependencies
+            shared: packageJson.dependencies // only used to avoid packages duplication but generates many js files instead of one or two
         })
     ]
 }
